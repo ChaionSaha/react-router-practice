@@ -1,0 +1,27 @@
+.table {
+	font-family: 'Noto Sans';
+	border-collapse: collapse;
+	font-size: 1vw;
+
+	& tr:nth-child(2n) {
+		background: #f5f5f5;
+	}
+	& td {
+		border: 1px solid #e1e1e1;
+		min-width: 8.75vw;
+		height: 2vw;
+		padding: 8px 0.8vw;
+		padding-right: 1vw;
+		box-sizing: content-box;
+
+		&.td-email a {
+			color: #0071cc;
+		}
+	}
+
+	& thead {
+		& td {
+			font-weight: 600;
+		}
+	}
+}

@@ -1,0 +1,12 @@
+tr {
+	td {
+		& span {
+			display: flex;
+			align-items: center;
+
+			& img {
+				margin-right: 0.5vw;
+			}
+		}
+	}
+}
