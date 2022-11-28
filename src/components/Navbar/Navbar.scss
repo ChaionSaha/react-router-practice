@@ -6,12 +6,14 @@ nav {
 	width: 40vw;
 	font-size: 1.9vw;
 
+	& .link {
+		transition: all 200ms;
+	}
+
 	& .link:visited,
 	& .link:link {
 		text-decoration: none;
 		color: black;
 		padding: 0.5vw;
-		// border-radius: 2px;
-		// border: 1px solid black;
 	}
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Table1.scss';
+import './ShowTable.scss';
 
 const ShowTable = (props) => {
 	const user = props.user;

@@ -1,6 +1,6 @@
 //import { SwitchVerticalOutline } from 'heroicons-react';
 import React, { useEffect, useState } from 'react';
-import ShowTable from '../Table1/Table1';
+import ShowTable from '../ShowTable/ShowTable';
 import './Table.scss';
 
 const Table = (props) => {
