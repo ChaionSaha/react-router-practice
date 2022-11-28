@@ -1,0 +1,17 @@
+nav {
+	margin: 2vw 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 40vw;
+	font-size: 1.9vw;
+
+	& .link:visited,
+	& .link:link {
+		text-decoration: none;
+		color: black;
+		padding: 0.5vw;
+		// border-radius: 2px;
+		// border: 1px solid black;
+	}
+}

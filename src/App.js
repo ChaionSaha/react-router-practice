@@ -1,10 +1,10 @@
-import Table from './components/Table/Table';
 import './App.scss';
+import Data from './components/Data/Data';
 
 function App() {
 	return (
 		<div className='App'>
-			<Table></Table>
+			<Data></Data>
 		</div>
 	);
 }
