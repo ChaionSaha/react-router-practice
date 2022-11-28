@@ -13,7 +13,8 @@ const Table = (props) => {
 			.then((data) => setUsers(data));
 	}, []);
 
-	const upperFirstLetter = (word) => word[0] + word.slice(1);
+	const upperFirstLetter = (word) => word[0].toUpperCase() + word.slice(1);
+	console.log(upperFirstLetter('chaion'));
 
 	return (
 		<table className='table'>
