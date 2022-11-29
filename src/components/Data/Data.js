@@ -8,6 +8,12 @@ const Data = () => {
 	let configAll = ['person', 'city', 'email', 'joiningDate', 'role'];
 	let config1 = ['person', 'email', 'role'];
 	let config2 = ['email', 'joiningDate', 'role'];
+
+	let sortAll = ['person', 'city', 'email', 'joiningDate', 'role'];
+	let sort1 = ['person'];
+	let sort2 = ['joiningDate', 'role'];
+	let sort3 = ['city', 'role'];
+
 	return (
 		<div className='data'>
 			<Navbar className='navbar'></Navbar>
@@ -17,19 +23,28 @@ const Data = () => {
 						<Table
 							className='data-table'
 							config={configAll}
+							sort={sortAll}
 						></Table>
 					}
 					path='/'
 				></Route>
 				<Route
 					element={
-						<Table className='data-table' config={config1}></Table>
+						<Table
+							className='data-table'
+							config={config1}
+							sort={sort1}
+						></Table>
 					}
 					path='table-1'
 				></Route>
 				<Route
 					element={
-						<Table className='data-table' config={config2}></Table>
+						<Table
+							className='data-table'
+							config={config2}
+							sort={sort2}
+						></Table>
 					}
 					path='table-2'
 				></Route>
@@ -38,6 +53,7 @@ const Data = () => {
 						<Table
 							className='data-table'
 							config={configAll}
+							sort={sort3}
 						></Table>
 					}
 					path='table-3'
